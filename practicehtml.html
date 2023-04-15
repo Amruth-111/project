@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>REST api calls</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js"></script>
+    <div id="div">
+        <form id="formid">
+            <h1><b><i><u>Sathya Hotels</u></i></b></h1>
+            <br>
+            <label  for="price" ><b>Price:</b></label>
+            <input type="number" id="price" placeholder="enter price" required>
+            <label  for="dish" ><b>Dish:</b></label>
+            <input type="text" id="dish" placeholder="choose dish" required>
+            <label  for="table" ><b>Table:</b></label>
+            <select id="table" name="table" required>
+                <option value="Table 1" id="t1" selected>Table 1</option>
+                <option value="Table 2" id="t2">Table 2</option>
+                <option value="Table 3" id="t3">table 3</option>
+            </select>
+            <input type="submit" id="submit">
+            <br>
+            <br>
+            
+           
+        </form>      
+    </div>
+    <form id="form2">
+        
+            <!-- <ul id="ul"> -->
+            <ul id="ul1" classList="first"><h3><b><i>Table 1</i></b></h3></ul>
+            <br>
+            <ul id="ul2" classList="second"><h3><b><i>Table 2</i></b></h3></ul> 
+            <br>
+        
+            <ul id="ul3" classList="third"><h3><b><i>Table 3</i></b></h3></ul>  
+            <!-- </ul> -->
+       
+    </form>
+    <script src="practice.js"></script> 
+</body>
+</html>
